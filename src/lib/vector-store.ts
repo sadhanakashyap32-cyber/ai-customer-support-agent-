@@ -14,6 +14,7 @@ export interface ChunkEntry {
   docId: string;
   sourceName: string;
   text: string;
+  embedding?: number[];
 }
 
 interface DocStoreState {
